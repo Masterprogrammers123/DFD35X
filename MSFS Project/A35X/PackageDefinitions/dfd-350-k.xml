@@ -1,0 +1,48 @@
+<AssetPackage Name="dfd-airbus-a350" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>Airbus A350-1000 XWB</Title>
+		<Manufacturer>Airbus</Manufacturer>
+		<Creator>Digital Flight Dynamics</Creator>
+		<Description/>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>true</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="html_ui">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\html_ui\Pages\VCockpit\Instruments</AssetDir>
+			<OutputDir>html_ui\Pages\VCockpit\Instruments</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\dfd-350-k\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\dfd-350-k\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="MarketplaceData">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\dfd-350-k\MarketplaceData\</AssetDir>
+			<OutputDir>MarketplaceData\dfd-350-k\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="DFD350-K">
+			<Type>SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\DFD350-K\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\DFD350-K\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

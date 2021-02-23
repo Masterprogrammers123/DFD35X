@@ -1,8 +1,0 @@
-<Project Version="2" Name="Airbus350Proj" FolderName="Packages">
-	<OutputDirectory>.</OutputDirectory>
-	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
-	<Packages>
-		<Package>PackageDefinitions\dfd-airbus-a350.xml</Package>
-	</Packages>
-</Project>
-
