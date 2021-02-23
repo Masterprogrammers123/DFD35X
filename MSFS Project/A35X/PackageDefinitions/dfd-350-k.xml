@@ -16,7 +16,7 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageDefinitions\dfd-350-k\html_ui\Pages\VCockpit\Instruments</AssetDir>
+			<AssetDir>PackageSources\html_ui\Pages\VCockpit\Instruments</AssetDir>
 			<OutputDir>html_ui\Pages\VCockpit\Instruments</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="ContentInfo">
