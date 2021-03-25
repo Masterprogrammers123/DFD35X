@@ -6,59 +6,54 @@
       "date": 132514038100000000
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/PFD/A350_XWB_PFD.css",
-      "size": 9749,
-      "date": 132579772515555283
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/EFIS_MASK.png",
+      "size": 11966,
+      "date": 132605021599803632
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/PFD/A350_XWB_PFD.html",
-      "size": 3566,
-      "date": 132584119415707990
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/EFIS_MASK_HIGHRES.png",
+      "size": 76089,
+      "date": 132604984414678224
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/PFD/A350_XWB_PFD.js",
-      "size": 7410,
-      "date": 132579772515565257
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/EFIS_PFD_AIRSPEED_INDICATOR.png",
+      "size": 14404,
+      "date": 132605171353251495
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/Test/A350_PFD.png",
-      "size": 564178,
-      "date": 132597085143386284
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/EFIS_PFD_AIRSPEED_INDICATOR_OVERLAY.png",
+      "size": 4481,
+      "date": 132605029664334205
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/Test/Test.css",
-      "size": 9749,
-      "date": 132579772515555283
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/EFIS_PFD_HORIZON.png",
+      "size": 58894,
+      "date": 132604303029839817
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/Test/Test.html",
-      "size": 402,
-      "date": 132598075233964970
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/EFIS_PFD_HORIZON_disp.png",
+      "size": 4590,
+      "date": 132604299473765268
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/Airliners/A350_XWB/Test/Test.js",
-      "size": 178,
-      "date": 132597129037832709
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/template.html",
+      "size": 215120,
+      "date": 132606750674615056
     },
     {
-      "path": "html_ui/Pages/VCockpit/Instruments/generated/PFD/template.html",
-      "size": 211223,
-      "date": 132599845132602473
-    },
-    {
-      "path": "html_ui/Pages/VCockpit/Instruments/generated/PFD/template.js",
-      "size": 1710,
-      "date": 132599845132602473
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/template.js",
+      "size": 1715,
+      "date": 132606750674625031
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/ai.cfg",
       "size": 1485,
-      "date": 132597135152713732
+      "date": 132611277637807727
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/aircraft.cfg",
-      "size": 3370,
-      "date": 132597135152773573
+      "size": 3463,
+      "date": 132611277637857730
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Approach.flt",
@@ -73,7 +68,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/cameras.cfg",
       "size": 24476,
-      "date": 132597135150269362
+      "date": 132611277634838311
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Climb.flt",
@@ -83,7 +78,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/cockpit.cfg",
       "size": 4818,
-      "date": 132597135152623966
+      "date": 132611277637142152
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Cruise.flt",
@@ -92,8 +87,8 @@
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/engines.cfg",
-      "size": 8520,
-      "date": 132597135151197501
+      "size": 8565,
+      "date": 132611277635775804
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Final.flt",
@@ -102,13 +97,13 @@
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/flight_model.cfg",
-      "size": 12700,
-      "date": 132597135151008014
+      "size": 12896,
+      "date": 132611277635586315
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/gameplay.cfg",
       "size": 1108,
-      "date": 132597135152633670
+      "date": 132611277637152123
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/hangar.flt",
@@ -122,13 +117,13 @@
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/DFD350_Exterior.bin",
-      "size": 10206900,
-      "date": 132599846505084767
+      "size": 22705818,
+      "date": 132611277655877185
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/DFD350_Exterior.gltf",
-      "size": 45662,
-      "date": 132599846505084767
+      "size": 49853,
+      "date": 132611277655887164
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/model.CFG",
@@ -137,8 +132,8 @@
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/panel/panel.cfg",
-      "size": 123,
-      "date": 132599723597651916
+      "size": 124,
+      "date": 132601562820086424
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/runway.FLT",
@@ -146,34 +141,34 @@
       "date": 132585678910000000
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/sound/MyCompany_Simple_Aircraft.PC.PCK",
-      "size": 14439673,
-      "date": 132514038100000000
+      "path": "SimObjects/Airplanes/DFD350-K/sound/Asobo_A320_NEO.PC.PCK",
+      "size": 59385096,
+      "date": 132579768299322011
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/sound/sound.xml",
-      "size": 10914,
-      "date": 132514038100000000
+      "size": 29808,
+      "date": 132579768299322011
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/soundAI/MyCompany_Simple_Aircraft_AI.PC.PCK",
-      "size": 4974772,
-      "date": 132514038100000000
+      "path": "SimObjects/Airplanes/DFD350-K/soundAI/Asobo_A320_NEO_AI.PC.PCK",
+      "size": 7575649,
+      "date": 132579768205378308
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/soundAI/soundai.xml",
-      "size": 2951,
-      "date": 132514038100000000
+      "size": 1372,
+      "date": 132579768213362752
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/systems.cfg",
-      "size": 13793,
-      "date": 132597135152075162
+      "size": 22229,
+      "date": 132611277636643482
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/target_performance.cfg",
-      "size": 1836,
-      "date": 132579768187530957
+      "size": 2301,
+      "date": 132600639357477272
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/taxi.flt",

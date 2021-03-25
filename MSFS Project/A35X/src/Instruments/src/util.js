@@ -1,5 +1,6 @@
 /*
- * Copyright (C) 2020 FlyByWire Simulations and its contributors
+ * A32NX
+ * Copyright (C) 2020-2021 FlyByWire Simulations and its contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

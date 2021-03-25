@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-// modified by Noga
+// modified by Noga 
 
 'use strict';
 
@@ -30,7 +30,7 @@ const tailwindcss = require('tailwindcss');
 
 const instrumentTemplate = require('./template/rollup.js');
 
-const TMPDIR = `${os.tmpdir()}/a-instruments-gen`;
+const TMPDIR = `${os.tmpdir()}/a35x-instruments-gen`;
 
 const extensions = ['.ts', '.tsx', '.js', '.jsx', '.mjs'];
 
