@@ -8,4 +8,48 @@
 		<!-- default minSize is 0 -->
 		<LOD minSize="50" ModelFile="DFD350_Exterior.gltf"/>
 	</LODS>
+	
+	<Animation name="gear_nose" guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeparam2="gear_nose" typeparam="AutoPlay" />
+	<Animation name="gear_left" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="100" type="Sim" typeparam2="gear_left" typeparam="AutoPlay" />  
+	<Animation name="gear_right" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="100" type="Sim" typeparam2="gear_right" typeparam="AutoPlay" />
+
+	<PartInfo>
+        <Name>gear_nose</Name>
+        <AnimLength>50</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:0</Variable>
+					<Units>number</Units>
+                    <Scale>100</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>gear_left</Name>
+		<Copy>gear_nose</Copy>
+        <AnimLength>50</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:1</Variable>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+    <PartInfo>
+        <Name>gear_right</Name>
+		<Copy>gear_nose</Copy>
+        <AnimLength>50</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:2</Variable>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
 </ModelInfo>

@@ -36,24 +36,29 @@
       "date": 132604299473765268
     },
     {
+      "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/staticoverlay.png",
+      "size": 22371,
+      "date": 132612705481583617
+    },
+    {
       "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/template.html",
-      "size": 215120,
-      "date": 132606750674615056
+      "size": 215393,
+      "date": 132612706687695006
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/generated/EFIS/template.js",
       "size": 1715,
-      "date": 132606750674625031
+      "date": 132612706687695006
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/ai.cfg",
       "size": 1485,
-      "date": 132611277637807727
+      "date": 132612741769393247
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/aircraft.cfg",
       "size": 3463,
-      "date": 132611277637857730
+      "date": 132612741769453038
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Approach.flt",
@@ -68,7 +73,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/cameras.cfg",
       "size": 24476,
-      "date": 132611277634838311
+      "date": 132612741767062802
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Climb.flt",
@@ -78,7 +83,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/cockpit.cfg",
       "size": 4818,
-      "date": 132611277637142152
+      "date": 132612741769313121
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Cruise.flt",
@@ -88,7 +93,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/engines.cfg",
       "size": 8565,
-      "date": 132611277635775804
+      "date": 132612741767964380
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/Final.flt",
@@ -98,12 +103,12 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/flight_model.cfg",
       "size": 12896,
-      "date": 132611277635586315
+      "date": 132612741767784611
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/gameplay.cfg",
       "size": 1108,
-      "date": 132611277637152123
+      "date": 132612741769323089
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/hangar.flt",
@@ -111,19 +116,19 @@
       "date": 132585678910000000
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/model/DFD350KExterior.xml",
-      "size": 343,
-      "date": 132584981533404377
-    },
-    {
       "path": "SimObjects/Airplanes/DFD350-K/model/DFD350_Exterior.bin",
-      "size": 22705818,
-      "date": 132611277655877185
+      "size": 28800696,
+      "date": 132613064814820444
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/DFD350_Exterior.gltf",
-      "size": 49853,
-      "date": 132611277655887164
+      "size": 53785,
+      "date": 132613064814830421
+    },
+    {
+      "path": "SimObjects/Airplanes/DFD350-K/model/DFD350KExterior.xml",
+      "size": 1841,
+      "date": 132613066592927650
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/model.CFG",
@@ -133,7 +138,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/panel/panel.cfg",
       "size": 124,
-      "date": 132601562820086424
+      "date": 132612870636515570
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/runway.FLT",
@@ -163,7 +168,7 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/systems.cfg",
       "size": 22229,
-      "date": 132611277636643482
+      "date": 132612741768823132
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/target_performance.cfg",
@@ -176,19 +181,39 @@
       "date": 132585678910000000
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/texture/texture.CFG",
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/350ENGINE_COWLING_BASECOLOR.PNG.DDS",
+      "size": 11184952,
+      "date": 132613046241597361
+    },
+    {
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/350ENGINE_COWLING_BASECOLOR.PNG.DDS.json",
+      "size": 102,
+      "date": 132613046241537521
+    },
+    {
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/350EXPORT_MATERIAL_BASECOLOR.PNG.DDS",
+      "size": 11184952,
+      "date": 132613046254483684
+    },
+    {
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/350EXPORT_MATERIAL_BASECOLOR.PNG.DDS.json",
+      "size": 102,
+      "date": 132613046254433814
+    },
+    {
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/texture.CFG",
       "size": 38,
       "date": 132514038120000000
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/texture/thumbnail.JPG",
-      "size": 110207,
-      "date": 132514038100000000
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/thumbnail.JPG",
+      "size": 51559,
+      "date": 132611845506596296
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/texture/thumbnail_small.JPG",
-      "size": 27955,
-      "date": 132514038100000000
+      "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/thumbnail_small.JPG",
+      "size": 13339,
+      "date": 132611845644084822
     }
   ]
 }

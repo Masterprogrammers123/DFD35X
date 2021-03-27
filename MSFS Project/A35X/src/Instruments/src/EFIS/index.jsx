@@ -35,6 +35,10 @@ const EFIS_SCREEN = () => {
                 <img src="/Pages/VCockpit/Instruments/generated/EFIS/EFIS_MASK.png"/>
             </div>
 
+            <div id="static_overlay">
+                <img src="/Pages/VCockpit/Instruments/generated/EFIS/staticoverlay.png"/>
+            </div>
+
             <div id="horizon">
                 <img src="/Pages/VCockpit/Instruments/generated/EFIS/EFIS_PFD_HORIZON.png" style={{
                     transformOrigin: `center ${2000 - (-pitch*7.4)}px`, 
