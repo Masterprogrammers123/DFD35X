@@ -1,0 +1,41 @@
+#background {
+    position: absolute;
+    z-index: 1;
+}
+
+#static_overlay {
+    position: absolute;
+    z-index: 1;
+}
+
+#horizon {
+    position: absolute;
+    z-index: 0;
+    top: -1701px;
+    left: -983px;
+}
+#horizon_indicator {
+    position: absolute;
+    z-index: 2;
+}
+
+#airspeed_indicator {
+    position: absolute;
+    z-index: 0;
+    top: -1337px;
+    left: 20px;
+}
+#airspeed_indicator_overlay {
+    position: absolute;
+    z-index: 0;
+}
+
+#altitude_indicator {
+    position: absolute;
+    z-index: 2;
+}
+
+#info {
+    position: absolute;
+    z-index: 2;
+}

@@ -13,6 +13,9 @@
 	<Animation name="gear_left" guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="100" type="Sim" typeparam2="gear_left" typeparam="AutoPlay" />  
 	<Animation name="gear_right" guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="100" type="Sim" typeparam2="gear_right" typeparam="AutoPlay" />
 
+    <Animation name="eng_fan1" guid="E8A94AB5-CBBD-4978-862B-4D78D9FF3E25" length="100" type="Sim" typeParam2="eng_fan1" typeParam="AutoPlay" />
+    <Animation name="eng_fan2" guid="a30d1108-0e02-4e78-a41a-4c072a815e90" length="100" type="Sim" typeParam2="eng_fan2" typeParam="AutoPlay" />
+
 	<PartInfo>
         <Name>gear_nose</Name>
         <AnimLength>50</AnimLength>
@@ -26,7 +29,6 @@
             </Parameter>
         </Animation>
     </PartInfo>
-	
 	<PartInfo>
         <Name>gear_left</Name>
 		<Copy>gear_nose</Copy>
@@ -39,7 +41,6 @@
             </Parameter>
         </Animation>
     </PartInfo>
-	
     <PartInfo>
         <Name>gear_right</Name>
 		<Copy>gear_nose</Copy>
@@ -52,4 +53,23 @@
             </Parameter>
         </Animation>
     </PartInfo>
+
+    <Component id="ENGINE">
+        <UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
+	    	<ID>1</ID>
+	    	<ANIM_NODE_ID>eng_fan1</ANIM_NODE_ID>
+	    	<ANIM_NAME>eng_fan1</ANIM_NAME>
+	    	<STILL_NODE_ID>PROP_STILL_LEFT</STILL_NODE_ID>
+	    	<SLOW_NODE_ID>PROP_STILL_LEFT</SLOW_NODE_ID>
+	    	<BLURRED_NODE_ID>PROP_STILL_LEFT</BLURRED_NODE_ID>
+	    </UseTemplate>
+	    <UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
+	    	<ID>2</ID>
+    		<ANIM_NODE_ID>eng_fan2</ANIM_NODE_ID>
+	    	<ANIM_NAME>eng_fan2</ANIM_NAME>
+    		<STILL_NODE_ID>PROP_STILL_RIGHT</STILL_NODE_ID>
+		    <SLOW_NODE_ID>PROP_STILL_RIGHT</SLOW_NODE_ID>
+		    <BLURRED_NODE_ID>PROP_STILL_RIGHT</BLURRED_NODE_ID>
+        </UseTemplate>
+    </Component>
 </ModelInfo>
