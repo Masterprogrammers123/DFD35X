@@ -146,19 +146,19 @@
       "date": 132585678910000000
     },
     {
-      "path": "SimObjects/Airplanes/DFD350-K/model/DFD350KExterior.xml",
-      "size": 2875,
-      "date": 132614428184280110
-    },
-    {
       "path": "SimObjects/Airplanes/DFD350-K/model/DFD350_Exterior.bin",
-      "size": 28978184,
-      "date": 132614658585825645
+      "size": 28981416,
+      "date": 132614771790835468
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/DFD350_Exterior.gltf",
-      "size": 65819,
-      "date": 132614658585835623
+      "size": 66394,
+      "date": 132614771790845406
+    },
+    {
+      "path": "SimObjects/Airplanes/DFD350-K/model/DFD350KExterior.xml",
+      "size": 2875,
+      "date": 132614428184280110
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/model/model.CFG",
@@ -213,52 +213,52 @@
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/350ENGINE_COWLING_BASECOLOR.PNG.DDS",
       "size": 11184952,
-      "date": 132614656651072231
+      "date": 132614771698284257
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/350ENGINE_COWLING_BASECOLOR.PNG.DDS.json",
       "size": 102,
-      "date": 132614656650882736
+      "date": 132614771698244362
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/DECALS.PNG.DDS",
       "size": 89478640,
-      "date": 132614656693830488
+      "date": 132614771740668145
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/DECALS.PNG.DDS.json",
       "size": 119,
-      "date": 132614656692853097
+      "date": 132614771740078785
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/ENGINE_NACELLES.PNG.DDS",
       "size": 11184952,
-      "date": 132614656716644518
+      "date": 132614771763837214
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/ENGINE_NACELLES.PNG.DDS.json",
       "size": 102,
-      "date": 132614656716604624
+      "date": 132614771763787344
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/FUSELAGE_NEW_UV.PNG.DDS",
       "size": 11184952,
-      "date": 132614656729018035
+      "date": 132614771776832291
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/FUSELAGE_NEW_UV.PNG.DDS.json",
       "size": 102,
-      "date": 132614656728968168
+      "date": 132614771776782423
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/TAIL.PNG.DDS",
       "size": 11184952,
-      "date": 132614656704976378
+      "date": 132614771751838928
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/TAIL.PNG.DDS.json",
       "size": 102,
-      "date": 132614656704926509
+      "date": 132614771751789061
     },
     {
       "path": "SimObjects/Airplanes/DFD350-K/TEXTURE/texture.CFG",

@@ -353,6 +353,12 @@
         {
             "mesh" : 24,
             "name" : "ENGINE_FAN_BLADES_LEFT",
+            "rotation" : [
+                0,
+                0,
+                0.6427804827690125,
+                0.766050398349762
+            ],
             "translation" : [
                 10.4119234085083,
                 3.3440072536468506,
@@ -362,6 +368,12 @@
         {
             "mesh" : 25,
             "name" : "ENGINE_SPINNER_LEFT",
+            "rotation" : [
+                0,
+                0,
+                0.6427863240242004,
+                0.7660455107688904
+            ],
             "translation" : [
                 10.41067123413086,
                 3.3438382148742676,
@@ -473,7 +485,7 @@
             "name" : "Plane",
             "translation" : [
                 1.7202590703964233,
-                4.8110785484313965,
+                4.661691188812256,
                 36.11942672729492
             ]
         }
@@ -522,6 +534,44 @@
                 {
                     "sampler" : 0,
                     "target" : {
+                        "node" : 24,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "ENGINE_FAN_BLADES_LEFTAction",
+            "samplers" : [
+                {
+                    "input" : 254,
+                    "interpolation" : "LINEAR",
+                    "output" : 257
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 25,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "ENGINE_SPINNER_LEFTAction",
+            "samplers" : [
+                {
+                    "input" : 254,
+                    "interpolation" : "LINEAR",
+                    "output" : 258
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
                         "node" : 35,
                         "path" : "rotation"
                     }
@@ -532,7 +582,7 @@
                 {
                     "input" : 254,
                     "interpolation" : "LINEAR",
-                    "output" : 257
+                    "output" : 259
                 }
             ]
         }
@@ -684,7 +734,7 @@
                     "glassDeformationFactor" : 0.5
                 }
             },
-            "name" : "Glass",
+            "name" : "Glass.001",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -881,13 +931,13 @@
             "name" : "Windows",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    1,
-                    1,
-                    1,
+                    0.18083953857421875,
+                    0.23153963685035706,
+                    0.3185398578643799,
                     0.05000000074505806
                 ],
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
+                "roughnessFactor" : 0
             }
         },
         {
@@ -969,6 +1019,12 @@
             ],
             "name" : "FanBlades",
             "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2140352874994278,
+                    0.2140352874994278,
+                    0.2140352874994278,
+                    1
+                ],
                 "metallicFactor" : 0.800000011920929,
                 "roughnessFactor" : 0.5
             }
@@ -3855,13 +3911,13 @@
             "componentType" : 5126,
             "count" : 100,
             "max" : [
-                -0.31327342987060547,
-                0.2737373411655426,
+                -0.30827343463897705,
+                0.4231244921684265,
                 0.12866079807281494
             ],
             "min" : [
-                -3.159348964691162,
-                -0.5725116729736328,
+                -3.164348840713501,
+                -0.42312443256378174,
                 -0.12866082787513733
             ],
             "type" : "VEC3"
@@ -3916,6 +3972,18 @@
         },
         {
             "bufferView" : 257,
+            "componentType" : 5126,
+            "count" : 101,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 258,
+            "componentType" : 5126,
+            "count" : 101,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 259,
             "componentType" : 5126,
             "count" : 101,
             "type" : "VEC4"
@@ -5211,11 +5279,21 @@
             "buffer" : 0,
             "byteLength" : 1616,
             "byteOffset" : 26428872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1616,
+            "byteOffset" : 26430488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1616,
+            "byteOffset" : 26432104
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 26430488,
+            "byteLength" : 26433720,
             "uri" : "DFD350_Exterior.bin"
         }
     ]
