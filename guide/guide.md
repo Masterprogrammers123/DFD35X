@@ -13,13 +13,13 @@ Guide
 
 >Step 2: Press the github account u wanna fork. 
 
->Step 3: download. U can choose to download the zip in that case i assume ur gunna be downloading the DFD35X to play with it. Or you can modify it in the web.
+>Step 3: download. You can choose to download the zip in that case i assume ur gunna be downloading the DFD35X to play with it. Or you can modify it in the web.
 
 ![Download button](https://www.undeveloper.com/bookpub/learntocode/chapter6/github-clone-or-download.png)
 
 >Step 4: Make the changes u want. 
 
->Step 5: Push ur changes if ur on git if ur an app it should automaticly do that and on web the same thing with app.
+>Step 5: Push your changes if ur on git if ur an app it should automaticly do that and on web the same thing with app.
 
 >Step 6: Go on the github website or app and press pull request. It will ask u a few questions like whats the name etc.
 
